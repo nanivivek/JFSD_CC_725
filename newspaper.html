@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Article</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            background: white;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .sub-header {
+            text-align: center;
+            font-size: 18px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+        .article {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .main-content {
+            flex: 2;
+            text-align: justify;
+        }
+        .sidebar {
+            flex: 1;
+            background: #e0e0e0;
+            padding: 15px;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">The Daily Times</div>
+    <div class="sub-header">Breaking News: Flexbox Revolutionizes Web Design</div>
+
+    <div class="article">
+        <div class="main-content">
+            <img src="https://via.placeholder.com/800x400" alt="News Image" class="image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt, justo at varius congue, risus ligula bibendum est, non cursus lorem nisl et odio. Sed volutpat, nunc vel feugiat fringilla, lacus tortor pharetra libero, ut cursus metus lectus sit amet nisi.</p>
+            <p>Nulla facilisi. Suspendisse nec ligula nec nulla eleifend consequat. Fusce ut ultricies urna. Duis venenatis dui non nisi molestie, in facilisis nulla fermentum. Integer tincidunt vehicula nulla, et aliquam odio laoreet non.</p>
+        </div>
+        <div class="sidebar">
+            <h3>Related News</h3>
+            <ul>
+                <li><a href="#">How Flexbox Works</a></li>
+                <li><a href="#">CSS Tricks for Better Layouts</a></li>
+                <li><a href="#">Web Design Trends 2025</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
